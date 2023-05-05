@@ -1,14 +1,14 @@
 ### 基础使用
 `-R ${filter}`  
-读取时过滤器  
+&nbsp;&nbsp;&nbsp;读取时过滤器  
 `-Y ${filter}`  
-展示时过滤器  
+&nbsp;&nbsp;&nbsp;展示时过滤器  
 `-n`  
-禁止地址名字解析
+&nbsp;&nbsp;&nbsp;禁止地址名字解析
 `-w ${outfile}`
-w数据的输出文件。这个参数不设置，tshark将会把解码结果输出到stdout,“-w -”表示把raw输出到stdout。如果要把解码结果输出到文件，使用重定向“>”而不要-w参数。 
+&nbsp;&nbsp;&nbsp;w数据的输出文件。这个参数不设置，tshark将会把解码结果输出到stdout,“-w -”表示把raw输出到stdout。如果要把解码结果输出到文件，使用重定向“>”而不要-w参数。 
 `-F ${filetype}`
-设置输出的文件格式，不加参数则显示支持的格式
+&nbsp;&nbsp;&nbsp;设置输出的文件格式，不加参数则显示支持的格式
 
 
 ### 规则
